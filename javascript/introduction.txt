@@ -1,0 +1,12 @@
+Javascript- Dynamic client side scripting language.
+
+javascript is a client side scripting language which means the source code is processed by the client web browser.
+This means javascript functions can run after a web page has loaded without communicating with the server.
+
+
+JavaScript Framework :
+
+1.Angular(fontend)
+2.React(fontend)
+3.vue.js(fontend)
+4.Node.js (server side)
