@@ -1,0 +1,30 @@
+Statement :
+	1. Single Line Statement
+	2. Conditional Statement
+	3. Repeated Statement
+
+
+Single line statement :
+	var x = 10;
+	document.write(x);
+
+Conditional Statement :
+	 1. IF
+	 2. IF ElSE
+	 3. IF ELSE IF
+	 4.SWITCH
+
+Repeated Statement:
+	 1. FOR
+	 2. WHILE
+	 3. DO WHILE
+	 4. FOR IN
+
+
+
+	
+
+
+	Shaeed Al Hasan (Siam)
+	siamshaeed@gmail.com
+	
