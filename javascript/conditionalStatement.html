@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statement</title>
+</head>
+
+<body>
+    <script>
+        //IF conditions
+        document.write("<h2>This is IF Statement</h2> <br>");
+        var x = 10;
+        var y = 20;
+        var z = 30;
+        if (x < 15) {
+            document.write("Here IF is condition True <br>");
+        }
+
+        //IF ELSE
+        document.write("<h2>This is IF ELSE Statement</h2> <br>");
+        if (x > y) {
+            document.write("Here IF id condition True <br>");
+        } else {
+            document.write("Here is ELSE condition True");
+        }
+
+        //IF ELSE IF
+        document.write("<h2>This is IF ELSE IF Statement</h2> <br>");
+        if (x > y) {
+            document.write("First IF");
+        } else if (y > z) {
+            document.write("ELSE IF first stape");
+        } else if (z > x) {
+            document.write("ELSE IF second stape");
+        } else {
+            document.write("This is last ELSE");
+        }
+
+        //SWITCH 
+        document.write("<h2>SWITCH Statement</h2>");
+        var i = 10;
+        switch (i) {
+            case 5:
+                document.write('Hellow World');
+                break;
+            case 10:
+                document.write('Hellow Bangladesh');
+                break;
+            case 20:
+                document.write('Hellow Dhaka');
+                break;
+            default:
+                document.write('Hellow BITM');
+        }
+    </script>
+</body>
+
+</html>
