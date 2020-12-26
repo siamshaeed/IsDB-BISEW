@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation on javascript</title>
+    <style>
+        input {
+            padding: 10px;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h2>javascript Form Validation</h2> -->
+    <script language="javascript">
+        function newFunction() {
+            var ID = document.myForm.id.value;
+            var Name = document.myForm.name.value;
+            var Course = document.myForm.course.value;
+            var Year = document.myForm.ys.value;
+
+            if (ID == null || ID == "") {
+                alert("Please Enter Your ID")
+            }else if (Name == null || Name == "") {
+                alert("Please Enter Your Name")
+            }
+            else if (Course == null || Course == "") {
+                alert("Please Enter Your Course name")
+            }
+            else if (Year == null || Year == "") {
+                alert("Please Enter Your Year")
+            }
+
+            else {
+                alert("Succesfully complete form")
+
+                // This code for open a new Window
+                // 	myWindow=window.open("", "mywindow","top=400,left=400, width=400,height=300");
+                // myWindow.document.write("<b>Student ID: </b>"+ID+"<br>"+"<b> Name: </b>"+Name+"<br>"+"<b>Course: </b>"+Course+"<br>"+"<b> Year/Section: </b>"+Year);
+
+                // This code for open same window
+                document.write("<b>Student ID: </b>" + ID + "<br>" + "<b> Name: </b>" + Name + "<br>" + "<b>Course: </b>" + Course + "<br>" + "<b> Year/Section: </b>" + Year);
+            }
+        }
+    </script>
+    <!-- Html Form -->
+    <center style="background-color: gray; width: 30%; margin: 0 auto; padding: 20px 0px; border: 2px solid black;">
+        <h2>javascript Form Validation</h2>
+        <form name="myForm" onSubmit="return newFunction()">
+            <strong>Student ID:</strong><br />
+            <input type="text" name="id" placeholder="Enter Your ID" /><br /><br />
+
+            <strong>Name:</strong><br />
+            <input type="text" name="name" placeholder="Enter Your Name" /><br /><br />
+
+            <strong>Course:</strong><br />
+            <input type="text" name="course" placeholder="Enter Your Course Name" /><br /><br />
+
+            <strong>Year/Section:</strong><br />
+            <input type="text" name="ys" placeholder="Enter Your Year/Section" /><br /><br />
+            <input type="submit" name="submit" value="Save">
+        </form>
+    </center>
+</body>
+</html>
