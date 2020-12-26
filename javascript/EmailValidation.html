@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+</head>
+<body>
+    <!-- JavaScript Area -->
+    <script>
+        function myfunction(){
+           var email = document.myform.emailFirst.value;
+           var confirmEmail = document.myform.emailSecond.value;
+
+           var emailValid = /[A-z0-9._%+-]+@[A-z0-9.-]+\.[A-z]{2,4}$/i;
+           if(email.search(emailValid)==-1){
+                alert("Please Enter Valid Email Address")
+           }else if(email!= confirmEmail){
+				alert("E-mail Address Does Not Matching");
+
+			}else{
+				alert("Your E-mail Address Is valid");
+			}
+        }
+    </script>
+    <!-- Form Area -->
+    <center style="background-color: gray; width: 20%; margin: 0 auto; padding: 20px 0px; border: 2px solid black;">
+        <form name="myform">
+            <strong>Email :</strong><br />
+            <input type="email" name="emailFirst" placeholder="Enter Your Email"><br />
+            <strong>Confirm Email :</strong><br />
+            <input type="email" name="emailSecond" placeholder="Enter Your Email"><br /> <br />
+            <input type="submit" name="btn" value="SEND" onclick="myfunction()">
+        </form>
+    </center>
+</body>
+</html>
