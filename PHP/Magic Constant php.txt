@@ -1,0 +1,2 @@
+Magic Constant :
+https://www.php.net/manual/en/language.constants.predefined.php
