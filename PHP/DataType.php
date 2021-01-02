@@ -40,3 +40,12 @@ echo "<br/>";
 $name = array("Siam", "Shaeed", "Redwan");
 echo("My Name is : " . $name[0]);
 echo("<br/>");
+//Object
+class foo{
+    function do_foo(){
+        echo("Doing foo");
+    }
+}
+$bar = new foo;
+$bar->do_foo();
+
