@@ -1,5 +1,5 @@
 <?php
-   /* echo("PHP supports ten primitive types.");
+/* echo("PHP supports ten primitive types.");
 
     Four scalar types:
    1. Boolean
@@ -18,11 +18,21 @@
    2. NULL 
    
    */
-    
-   //Boolean
-   $alive = true;
-   echo gettype($alive);
-   echo"<br/>";
-   //Integer
-   
-?>
+
+//Boolean
+$alive = true;
+echo gettype($alive);
+echo "<br/>";
+//Integer
+$int = 5;
+echo gettype($int);
+echo"<br/>";
+//Float
+$float = 5.20;
+echo gettype($float);
+echo"<br/>";
+//String
+$str = "Hi Siam";
+echo gettype($str);
+echo "<br/>";
+
