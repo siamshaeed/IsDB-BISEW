@@ -36,3 +36,7 @@ $str = "Hi Siam";
 echo gettype($str);
 echo "<br/>";
 
+//Array
+$name = array("Siam", "Shaeed", "Redwan");
+echo("My Name is : " . $name[0]);
+echo("<br/>");
