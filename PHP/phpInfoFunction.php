@@ -1,3 +1,4 @@
 <?php
-phpinfo()
+echo ("This function can show PHP information");
+phpinfo();
 ?>
