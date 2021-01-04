@@ -1,4 +1,5 @@
 <?php
+echo "<h2>Variable On PHP</h2>"
 //Variable are simply use to store data, variable value can be change.
 /*  1. Php variable start with a $sign
     2. Variable name must be start letter or underscore
