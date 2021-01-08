@@ -1,4 +1,5 @@
-# Cheat Sheet :: 
-https://websitesetup.org/wp-content/uploads/2020/04/MySQL-Cheat-Sheet-websitesetup.org_.pdf
+# Details Here :: https://github.com/SiamShaeed/mysql_cheat_sheet
 
-# Details Here : https://github.com/SiamShaeed/mysql_cheat_sheet
+# Cheat Sheet :: https://websitesetup.org/wp-content/uploads/2020/04/MySQL-Cheat-Sheet-websitesetup.org_.pdf
+
+
