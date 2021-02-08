@@ -12,12 +12,13 @@
 
 
     echo"<br> <br>";
+	
     $studentName[0] = "Siam";
     $studentName[1] = "Tanim";
     $studentName[2] = "Ismail";
     $studentName[3] = "Ruhul";
     echo "<b>Display array data :</b>" . $studentName[1];
-    echo "<br>";
+    echo "<br> <br>";
     // chack array debuging function
     print_r($studentName);
     echo"<br> <br>";
