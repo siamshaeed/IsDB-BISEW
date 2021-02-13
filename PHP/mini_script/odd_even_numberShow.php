@@ -7,7 +7,7 @@ if (isset($_POST['btn'])){
 	$endingNumber = $_POST['ending'];
 	$chack = $_POST['chack'];
 	if ($startingNUmber <= $endingNumber) {
-		if($chack == odd){
+		if($chack == 'odd'){
 			for ($i=$startingNUmber; $i <= $endingNumber ; $i++) { 
 				if ($i % 2 != 0 ) {
 					$result.=$i."";
@@ -20,9 +20,9 @@ if (isset($_POST['btn'])){
 				}
 			}
 		}
+		}
 	}
 	?>
-
 	<form action="" method="post">
 		<table>
 			<tr>
