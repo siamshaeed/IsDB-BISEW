@@ -7,7 +7,11 @@
 </head>
 <body>
 	<?php
- 		echo "Hellow World";
+ 		echo "Hellow World <br>";
+	?>
+
+	<?php
+		print("Hellow Bangladesh");
 	?>
 </body>
 </html>
