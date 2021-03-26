@@ -1,5 +1,5 @@
 <?php
-    #Array - Variable that hold multiple value.
+    #An array is a data structure that stores one or more similar type of values in a single value.
 
     // 3 type of array :
     // 1. indexed Array
