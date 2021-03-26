@@ -2,9 +2,9 @@
     #An array is a data structure that stores one or more similar type of values in a single value.
     // 3 type of array :
 
-    /*1. indexed Array
+    /*1. Indexed/Numeric Array Array
       2. Associative Array
-      3. Numeric Array*/
+      3. Multi-dimensional*/
 
       echo "<h2>Indexed/Numeric Array</h2>";
     //First method to create array.
@@ -19,9 +19,11 @@
       $studentName[3] = "Ruhul";
       echo "<b>Display array data :</b>" . $studentName[1];
       echo "<br> <br>";
+
     // chack array debuging function
       print_r($studentName);
       echo"<br> <br>";
+      
     //Chack var_dump 
       var_dump($studentName);
       echo"<br> <br>";
