@@ -20,7 +20,7 @@
       echo "<b>Display array data :</b>" . $studentName[1];
       echo "<br> <br>";
 
-    // chack array debuging function
+    //chack array debuging function
       print_r($studentName);
       echo"<br> <br>";
       
