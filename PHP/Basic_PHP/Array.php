@@ -2,9 +2,9 @@
     #An array is a data structure that stores one or more similar type of values in a single value.
     // 3 type of array :
 
-    /*1. Indexed/Numeric Array Array
-      2. Associative Array
-      3. Multi-dimensional*/
+    /* 1. Indexed/Numeric Array Array
+       2. Associative Array
+       3. Multi-dimensional */
 
       echo "<h2>Indexed/Numeric Array</h2>";
     //First method to create array.
