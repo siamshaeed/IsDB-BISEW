@@ -1,4 +1,4 @@
 <?php
-echo ("This function can show PHP information");
+echo ("This function can show PHP information:");
 phpinfo();
 ?>
