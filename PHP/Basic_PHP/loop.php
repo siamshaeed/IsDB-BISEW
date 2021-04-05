@@ -1,6 +1,7 @@
 <?php
 /*
 <p>Loops in PHP are used to execute the same block of code a specified number of times. PHP supports following four loop types.</p>
+
 <span>
     for − loops through a block of code a specified number of times.
 
