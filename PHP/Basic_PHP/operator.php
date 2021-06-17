@@ -4,5 +4,6 @@ echo "PHP operator:";
 		Bainary (+, -, *, /, %)
 		Unary (++, --, (-))
 	2. Assaignment operator (=, +=, -=, *=, /=, %=)
+	3. Conditional operator (>, >=, <, <=, ==, !=, ===, !===)
 
 ?>
