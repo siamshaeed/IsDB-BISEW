@@ -1,5 +1,6 @@
 <?php 
-echo "conditional statement";
+
+echo "Conditional statement";
 
 /*	1. IF
 	2. IF ElSE
