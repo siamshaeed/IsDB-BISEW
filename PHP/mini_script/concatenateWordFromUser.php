@@ -7,8 +7,17 @@
 </head>
 <body>
 	<?php 
-		
-	 ?>
+	echo "<pre>";
+	print_r	($_POST);
+
+	if (isset($_POST['btn'])) {
+		$firstName = $_POST['firstName'];
+		$middleName = $_POST['middleName'];
+		$lastName = $_POST['lastName'];
+		$fullName = $firstName . $middleName . $lastName;
+	}
+
+	?>
 	<form action="" method="POST">
 		<table>
 			<tr>
