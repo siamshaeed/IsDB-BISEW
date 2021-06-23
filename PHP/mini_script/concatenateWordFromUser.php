@@ -6,6 +6,9 @@
 	<title>Concatenate word from user</title>
 </head>
 <body>
+	<?php 
+		
+	 ?>
 	<form action="" method="POST">
 		<table>
 			<tr>
