@@ -13,12 +13,13 @@
 		$firstName = $_POST['firstName'];
 		$middleName = $_POST['middleName'];
 		$lastName = $_POST['lastName'];
-		$fullName = $firstName . $middleName . $lastName;
+		$fullName =  $firstName. " " . $middleName . " " . $lastName;
 	}
 	?>
 
 	<form action="" method="POST" >
 		<table align="center">
+			<h2 align="center">Please Enter Your Information :</h2>
 			<tr>
 				<td>First Name :</td>
 				<td><input type="text" name="firstName" placeholder="First Name"></td>
@@ -33,7 +34,7 @@
 			</tr>
 			<tr>
 				<td>Full Name :</td>
-				<td><input type="text" placeholder="Full Name" value="<?php echo $fullName;?>"></td>
+				<td><input type="text" placeholder="Full Name" value="<?php echo  $fullName;?>"></td>
 			</tr>
 			<tr>
 				<td></td>
