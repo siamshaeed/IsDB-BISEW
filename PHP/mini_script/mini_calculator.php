@@ -7,6 +7,8 @@ if (isset($_POST['btn'])) {
 $firsNumber = $_POST['firsNumber'];
 $secondNumber = $_POST['secondNumber'];
 $btn = $_POST['btn'];
+
+// usein switch case
 switch ($btn) {
 	case '+':
 		$result = $firsNumber + $secondNumber;
@@ -24,6 +26,23 @@ switch ($btn) {
 		$result = $firsNumber % $secondNumber;
 		break;
 }
+
+// using if elseif
+/*if ($btn == "+") {
+			$result = $firstNumber + $secondNumber;
+		}
+		elseif ($btn == "-") {
+			$result = $firstNumber - $secondNumber;
+		}
+		elseif ($btn == "*") {
+			$result = $firstNumber * $secondNumber;
+		}
+		elseif ($btn == "/") {
+			$result = $firstNumber / $secondNumber;
+		}
+		elseif ($btn == "%") {
+			$result = $firstNumber % $secondNumber;
+		}*/
 }
 ?>
 
