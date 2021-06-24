@@ -28,7 +28,7 @@ switch ($btn) {
 }
 
 // using if elseif
-/*if ($btn == "+") {
+		/*if ($btn == "+") {
 			$result = $firstNumber + $secondNumber;
 		}
 		elseif ($btn == "-") {
