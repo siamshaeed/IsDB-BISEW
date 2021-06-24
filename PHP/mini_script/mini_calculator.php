@@ -1,5 +1,6 @@
 <?php 
 $result = '';
+
 if (isset($_POST['btn'])) {
 // echo "<pre>";
 // print_r($_POST);
@@ -25,6 +26,7 @@ switch ($btn) {
 }
 }
 ?>
+
 <form action="" method="post">
 	<table>
 		<tr>
