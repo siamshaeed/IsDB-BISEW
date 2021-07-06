@@ -1,5 +1,4 @@
 <?php 
-
 	// Function Definition
 	function concation(){
 		$firstName = "Shaeed Al Hasan";
@@ -9,7 +8,6 @@
 	}
 	// Function Calling
 	concation();
-
 	?>
 
 	<?php 
