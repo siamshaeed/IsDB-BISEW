@@ -1,4 +1,5 @@
 <?php
+/*
 // Structure in class
 class myClass
 {   
@@ -25,4 +26,24 @@ echo "<br>";
 echo $obj_my -> country();
 echo "<br>";
 echo $obj_my -> district();
+*/
+?>
+
+<?php 
+class student{
+    public $name = "Siam";
+    Protected $dept = "CSE";
+    private $id = "42";
+
+    public function myclass(){
+         echo $this->name;
+    } 
+    protected function phone(){
+         $phone = "01787972797";
+    }
+    private function mail(){
+        $mail = "siamshaeed@gmail.com";
+    }
+}
+?>
 
