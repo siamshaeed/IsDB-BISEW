@@ -29,21 +29,27 @@ echo $obj_my -> district();
 */
 ?>
 
-<?php 
-class student{
+<?php
+class student
+{
     public $name = "Siam";
-    Protected $dept = "CSE";
+    protected $dept = "CSE";
     private $id = "42";
 
-    public function myclass(){
-         echo $this->name;
-    } 
-    protected function phone(){
-         $phone = "01787972797";
+    public function myclass()
+    {
+        echo $this->name;
     }
-    private function mail(){
+    protected function phone()
+    {
+        $phone = "01787972797";
+    }
+    private function mail()
+    {
         $mail = "siamshaeed@gmail.com";
     }
 }
+$obj_new = new student();
+$obj_new->myclass();
 ?>
 
